@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Trebuchet MS", Helvetic, sans-serif;
+	background: #f4f2ec url(imagens/fundo2.png) repeat-x;
+}
+#container {
+	width: 1300px;
+	height: 50px;
+	margin: 0 auto;
+}
+#redes ul {
+	list-style: none;
+}
+ #redes ul li  {
+	float: right;
+}
+#redes ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.3em 0.3em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #FFF;
+}
+#topo {
+	height: 80px;
+	background: url(imagens/logo8.jpg) no-repeat center top;
+	margin-left: -60px;
+}
+#menu {
+	display: flex;
+	justify-content: center;
+	color: #000000;
+}
+
+#menu ul {
+	margin: 10px;
+	list-style: none;
+}
+#menu ul li {
+	float: left;
+}
+#menu ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 1.0em;
+	text-decoration: none;
+	color: #FFF;
+}
+#menu ul a:hover {
+	color: #6BD7FD;
+	
+}
+body.blog #menu #navegacao a#blog,
+body.cursos #menu #navegacao a#cursos,
+body.projetos #menu #navegacao a#projetos,
+body.somos #menu #navegacao a#somos
+
+{
+	color: #6BD7FD; 
+	background: #000000;
+	cursor: pointer;
+	border: 2px solid #00d7c3;
+ 	border-radius: 20px;
+
+}
+#pesquisa {
+	text-align: center;
+	padding-left: 80px;
+	float: left;
+}
+
+.pesquisa {
+	height: 25px;
+	border-radius: 10px;
+	border-color: #000000;
+}
+#tres-colunas #primario {
+	width: 270px;
+	float: left;
+	margin-right: 30px;
+}
+#duas-colunas #primario {
+	width: 600px;
+	float: left;
+	margin-right: 55px;
+	margin-top: 30px;
+}
+#uma-coluna #primario {
+	width: 750px;
+	float: left;
+	margin: 30px;
+}
+
+
+#secundario {
+	float: left;
+	width: 270px;
+	margin-right: 30px;
+}
+
+#terciario {
+	width: 270px;
+	float: left;
+	margin-right: 30px;
+}
+#primario a {
+	text-decoration: none;
+	color: #4682B4;
+}
+#secundario a {
+	text-decoration: none;
+	color: #4682B4;
+}
+#terciario a {
+	text-decoration: none;
+	color: #4682B4;
+}
+
+ h3 {
+ 	text-transform: uppercase;
+	font-size: 0.8em;
+
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 42px;
+	background: #54C7C7;
+	text-align: center;
+}
+
+#contain {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+
+#contain img {
+	border-radius: 30px;
+	padding-top: 10px;
+}
+
