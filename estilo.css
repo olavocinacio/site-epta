@@ -2,21 +2,26 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	font-family: "Trebuchet MS", Helvetic, sans-serif;
 	background: #f4f2ec url(imagens/fundo2.png) repeat-x;
 }
+
 #container {
-	width: 1300px;
+	width: 100%;
 	height: 50px;
 	margin: 0 auto;
 }
+
 #redes ul {
 	list-style: none;
 }
- #redes ul li  {
+
+#redes ul li {
 	float: right;
 }
+
 #redes ul a {
 	font-size: 0.9em;
 	display: block;
@@ -25,24 +30,29 @@ body {
 	text-decoration: none;
 	color: #FFF;
 }
+
 #topo {
 	height: 80px;
 	background: url(imagens/logo8.jpg) no-repeat center top;
 	margin-left: -60px;
 }
-#menu {
+
+#menu{
 	display: flex;
 	justify-content: center;
-	color: #000000;
+	align-items: center;
+	color: #ffffff;
 }
 
 #menu ul {
 	margin: 10px;
 	list-style: none;
 }
+
 #menu ul li {
 	float: left;
 }
+
 #menu ul a {
 	font-size: 0.9em;
 	display: block;
@@ -51,45 +61,53 @@ body {
 	text-decoration: none;
 	color: #FFF;
 }
+
 #menu ul a:hover {
 	color: #6BD7FD;
-	
+
 }
+
 body.blog #menu #navegacao a#blog,
 body.cursos #menu #navegacao a#cursos,
 body.projetos #menu #navegacao a#projetos,
-body.somos #menu #navegacao a#somos
-
-{
-	color: #6BD7FD; 
+body.somos #menu #navegacao a#somos {
+	color: #6BD7FD;
 	background: #000000;
 	cursor: pointer;
-	border: 2px solid #00d7c3;
- 	border-radius: 20px;
-
+	border: 1px solid #00d7c3;
+	border-radius: 20px;
+	height: 1%;
+	/* padding-top: 2px; */
 }
+
 #pesquisa {
+	align-items: center;
 	text-align: center;
 	padding-left: 80px;
 	float: left;
 }
 
 .pesquisa {
-	height: 25px;
+	height: 3vh;
+	width: 15vw;
 	border-radius: 10px;
 	border-color: #000000;
+	padding-top: 6%;
 }
+
 #tres-colunas #primario {
 	width: 270px;
 	float: left;
 	margin-right: 30px;
 }
+
 #duas-colunas #primario {
 	width: 600px;
 	float: left;
 	margin-right: 55px;
 	margin-top: 30px;
 }
+
 #uma-coluna #primario {
 	width: 750px;
 	float: left;
@@ -108,21 +126,24 @@ body.somos #menu #navegacao a#somos
 	float: left;
 	margin-right: 30px;
 }
+
 #primario a {
 	text-decoration: none;
 	color: #4682B4;
 }
+
 #secundario a {
 	text-decoration: none;
 	color: #4682B4;
 }
+
 #terciario a {
 	text-decoration: none;
 	color: #4682B4;
 }
 
- h3 {
- 	text-transform: uppercase;
+h3 {
+	text-transform: uppercase;
 	font-size: 0.8em;
 
 }
@@ -138,12 +159,17 @@ h2 {
 #contain {
 	display: flex;
 	justify-content: center;
-	padding-top: 10px;
+	padding-top: 2%;
 }
 
 
 #contain img {
-	border-radius: 30px;
-	padding-top: 10px;
+	border-radius: 25px;
+	padding-top: 1%;
+	padding-bottom: 3%;
 }
 
+#contain p {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
